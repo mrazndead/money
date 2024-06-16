@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #00ff7f, #32cd32);
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%; /* Set container to half the width of the viewport */
+    max-width: 400px; /* Optional: Set a max width for better appearance on larger screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#input-container {
+    margin-bottom: 20px;
+    width: 95%; /* Ensure the input container takes the full width of the parent */
+}
+
+.number-input {
+    display: block;
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 36px; /* Set font size to 36 pixels */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#total-container {
+    margin-top: 20px;
+}
+
+#total {
+    font-size: 50px; /* Set font size to 50 pixels */
+}
+
+#difference {
+    font-size: 36px; /* Optional: set a font size for the difference to keep it visible */
+}
+
+.hidden {
+    display: none;
+}

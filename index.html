@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Sum Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Money Maker</h1>
+        <div id="input-container">
+            <input type="number" class="number-input" oninput="calculateTotal()">
+            <input type="number" class="number-input" oninput="calculateTotal()">
+            <input type="number" class="number-input" oninput="calculateTotal()">
+        </div>
+        <button onclick="addInput()">Add another input</button>
+        <div id="total-container">
+            <h2>Total: <span id="total">0</span></h2>
+            <p>Difference from 1,000: <span id="difference">0</span></p>
+            <p id="quota-message" class="hidden">You hit the weekly quota!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
